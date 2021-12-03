@@ -16,7 +16,7 @@ function checkAnglesSum()
 function checkIfTriangle(sumofAngles){
     if(sumofAngles===180)
     {
-        console.log("hi");
+        //console.log("hi");
         outputShown.innerText="Bravo!!Angles you entered makes a triangle";
     }
     else{
