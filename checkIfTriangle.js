@@ -9,9 +9,13 @@ function checkAnglesSum()
     var selectedangle1 = Number(angle1.value);
     var selectedangle2 = Number(angle2.value);
     var selectedangle3 = Number(angle3.value);
+    if(selectedangle1&&selectedangle2&&selectedangle3){
     var sumofAngles= (selectedangle1+selectedangle2+selectedangle3);
     //console.log(typeof(selectedangle1),sumofAngles);
-    checkIfTriangle(sumofAngles);
+    checkIfTriangle(sumofAngles);}
+    else{
+        outputShown.innerText="Please enter valid and non zero inputs";
+    }
 }
 function checkIfTriangle(sumofAngles){
     if(sumofAngles===180)
