@@ -1,0 +1,1 @@
+This app plays with triangle. It calculates area of triangle, Hypotenuse. And also takes 3 angles input and shows if it is triangle. It also contains quiz about triangle which has questions about triangle.
